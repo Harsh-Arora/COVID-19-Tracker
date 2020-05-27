@@ -1,0 +1,89 @@
+html{
+	background: #17252a;
+	font-family: sans-serif;
+}
+
+p{
+	color: #fff;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+.container{
+	padding: 20px;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container .form *{
+	padding: 10px;
+	font-size: 1.25em;
+}
+
+.form input{
+	width: 70%;
+}
+
+.form button{
+	width: 25%;
+	background: transparent;
+	border: 1.5pt solid white;
+	color: #fff;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.form button:hover{
+	background: #fff;
+	color: #17252a;
+}
+
+.res{
+	padding-top: 30px;
+	display: none;
+}
+
+.name{
+	font-size: 1.75em;
+	color: #fff;
+	margin: 10px 0;
+	text-decoration: underline;
+}
+
+.stats{
+	padding: 10px;
+}
+
+.stats .block{
+	display: inline-block;
+	width: 30%;
+	margin: 0 5px;
+	padding: 0px;
+	background: #f8f9fa;
+	border-radius: 10px;
+}
+
+.stats .head{
+	font-size: 1.25em;
+	background: #e9ae00;
+	padding: 10px;
+	color: #f9f9f9;
+}
+
+.stats .data{
+	padding: 20px;
+	font-size: 1.25em;
+}
+
+.stats .recovered .head{
+	background: #28a745;
+}
+
+.stats .deaths .head{
+	background: #dc3545;
+}
+
+.world{
+	margin-top: 40px;
+}
